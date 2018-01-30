@@ -1,0 +1,143 @@
+*{
+	margin:0;
+	padding:0;
+	font-family: "微软雅黑";
+}
+/*字体图标定义*/
+i{
+	display: inline-block;
+	font-size: 16px;
+}
+a{
+	text-decoration:none;
+	color:#333333;
+}
+.welcome{
+	background-image:url(../img/main.jpg);
+/*background-color: #1BB196;*/
+}
+#main{
+	width:1200px;
+	height:600px;
+	margin:20px auto;
+	border:1px solid #D6DADD;
+	box-shadow: 0 0 5px -2px;
+}
+
+/*主界面头部开始*/
+#main-head{
+	float: left;
+	height:60px;
+	width: 100%;
+	background-color: white;
+	border-bottom: 1px solid #D6DADD;
+}
+
+/*主界面左部开始*/
+#main-left{
+	float: left;
+	height: 90%;
+	width: 170px;
+	margin-left: -1px;
+	box-shadow: -2px 2px 5px -3px;
+	background-color: #2B3946;
+}
+#tianc{
+	position: relative;
+	width: 170px;
+	height: 70px;
+	background-color: #2B3946;
+	z-index: 100;
+}
+#main-left-ul>li{
+	position: relative;
+	list-style: none;
+	width: 128px;
+	height: 40px;
+	line-height: 40px;
+	padding: 0 20px;
+	color: #1BB196;
+	background-color: #2B3946;
+	border-left: 2px solid #2B3946;
+	cursor: pointer;
+	z-index: 100;
+	font-size: 14px;
+	text-align: center;
+}
+#main-left-ul>li:hover{
+	background-color: #1D262F !important;
+	border-left: 2px solid #34B8A1 !important;
+	color:white !important;
+}
+#main-left-ul>li>i{
+	float: left;
+}
+.main-left-ul-child{
+	position: relative;
+	margin-top: -90px;
+	background-color: #2B3946;
+	width: 170px;
+	height: 90px;
+	transition: margin-top 0.3s ease;
+}
+.main-left-ul-child>li{
+	position: relative;
+	list-style: none;
+	width: 100px;
+	height: 30px;
+	line-height: 30px;
+	padding-left:70px;
+	margin: 0;
+	color: white;
+	cursor: pointer;
+	font-size: 12px;
+	background-color: #2B3946;
+	
+}
+.main-left-ul-child>li:hover{
+	background-color: #34B8A1 !important;
+}
+.main-left-ul-child:nth-of-type(1){
+	z-index: 5;
+}
+.main-left-ul-child:nth-of-type(2){
+	z-index: 4;
+}
+.main-left-ul-child:nth-of-type(3){
+	z-index: 3;
+}
+.main-left-ul-child:nth-of-type(4){
+	z-index: 2;
+}
+.main-left-ul-child:nth-of-type(5){
+	z-index: 1;
+}
+/*主界面右部开始*/
+#main-right{
+	float: left;
+	height: 90%;
+	width: 1031px;
+	background-color: #EBEFF2;
+	overflow:hidden;
+}
+#main-right-img{
+	position:relative;
+	left:0px;
+	background:url("/MyDemo/img/back.jpg" ) no-repeat;	
+	background-size:100% 100%;
+	width:100%;
+	height:100%;
+    
+
+	
+}
+
+#main-head-title{
+	float:left;
+	margin: 15px 20px;
+	font-size: 25px;
+}
+#main-head-user{
+	float:right;
+	margin: 20px;
+}
